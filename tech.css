@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+.profile {
+    border-radius: 5rem;
+    margin-left: 4rem;
+    width: 30%;
+}
+.name {
+    font-size: 130%;
+}
+h1{
+    color: white;
+}
+.container{
+    width: 25%;
+    height: 27rem;
+    margin: 2rem auto;
+    background-color: rgb(16, 16, 16);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.profile_container {
+    padding-left: 20%;
+}
+.name {
+    padding-left: 28%;
+}
+.location {
+    color: yellow;
+    padding-left: 35%;
+}
+.skills {
+    color: white;
+    padding-left: 10%;
+}
+.list {
+    width: 95%;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    border-radius: 1rem;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 60%;
+        height: 27rem;
+        margin: 2rem auto;
+        background-color: rgb(16, 16, 16);
+        border-radius: 1rem;
+        padding: 2rem;
+    }
+}
